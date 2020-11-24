@@ -4,9 +4,7 @@ I am a Microsoft Dynamics Developer, musician, writer and Veteran advocate.
 <hr style="width:100%; height:2px">
 
 <!--- Skills section -->
-<iframe src="https://www.linkedin.com/in/davenull/detail/skills/" title="Dave's Skills" height="100" width="100">
-</iframe>    
-<br>
+
 
 <!--- Technology stack section -->
 Technology Stack:<br>
