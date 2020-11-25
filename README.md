@@ -1,5 +1,3 @@
-<link rel="stylesheet" type="text/css" media="all" href="air.css">
-
 ### Hi there, I'm Dave. 👋
 
 I am a Microsoft Dynamics Developer, musician, writer and Veteran advocate.
