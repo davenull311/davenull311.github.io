@@ -22,28 +22,28 @@ My name is Dave. I'm a Microsoft Dynamics Developer, musician, writer and Vetera
 
 <hr style="width:100%; height:1px">
 
-<!--- Technology stack section -->
-<p>          
+<!--- Technology stack section -->         
 <h4>Technology Stack:</h4><br>
-<img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1411/1.0.1411.2206/dynamicscrmonline/icon.png" width="30" height="30" alt="Dynamics 365" title="Microsoft Dynamics 365" class="icons" />
-<img src="https://powerapps.microsoft.com/images/application-logos/svg/powerapps.svg" width="30" height="30" alt="Power Apps" title="Microsoft Power Apps" class="icons" />
-<img src="https://powerapps.microsoft.com/images/application-logos/svg/powerautomate.svg" width="30" height="30" alt="Power Automate" title="Microsoft Power Automate" class="icons" />
-<img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1408/1.0.1408.2187/powerbi/icon.png" width="30" height="30" alt="Power BI" title="Microsoft Power BI" class="icons" />
-<img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1416/1.0.1416.2232/sharepointonline/icon.png" width="30" height="30" alt="SharePoint" title="Microsoft SharePoint" class="icons" />
-<img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1411/1.0.1411.2206/azuread/icon.png" width="30" height="30" alt="Active Directory" title="Azure Active Directory" class="icons" />
-<img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1416/1.0.1416.2232/vsts/icon.png" width="30" height="30" alt="DevOps" title="Azure DevOps" class="icons" />
-<img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1403/1.0.1403.2163/azuredatalake/icon.png" width="30" height="30" alt="Data Lake" title="Azure Data Lake" class="icons" />
-<img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1403/1.0.1403.2163/azuredatafactory/icon.png" width="30" height="30" alt="Data Factory" title="Azure Data Factory" class="icons" />
-<img src="https://connectoricons-prod.azureedge.net/azurevm/icon_1.0.1358.2031.png" width="30" height="30" alt="VM" title="Azure VM" class="icons" />
-<img src="https://docs.microsoft.com/en-us/connectors/connector-reference/media/logicapps-32.png" width="30" height="30" alt="Logic Apps" title="Azure Logic Apps" class="icons" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="30" height="30" alt="HTML5" title="HTML5" class="icons" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="30" height="30" alt="CSS3" title="CSS3" class="icons" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Badge_js-strict.svg/739px-Badge_js-strict.svg.png" width="30" height="30" alt="JavaScript" title="JavaScript" class="icons" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png" width="30" height="30" alt="C#" title="C#" class="icons" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png" width="30" height="30" alt=".NET Framework" title=".NET Framework" class="icons" />
-<img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png" height="30" alt="Java" title="Java" class="icons" />
-<img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1416/1.0.1416.2233/sql/icon.png" width="30" height="30" alt="SQL Server" title="SQL Server" class="icons" />
-<img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1416/1.0.1416.2233/postgresql/icon.png" width="30" height="30" alt="PostgreSQL" title="PostgreSQL" class="icons" />
+<p> 
+    <img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1411/1.0.1411.2206/dynamicscrmonline/icon.png" width="30" height="30" alt="Dynamics 365" title="Microsoft Dynamics 365" class="icons" />
+    <img src="https://powerapps.microsoft.com/images/application-logos/svg/powerapps.svg" width="30" height="30" alt="Power Apps" title="Microsoft Power Apps" class="icons" />
+    <img src="https://powerapps.microsoft.com/images/application-logos/svg/powerautomate.svg" width="30" height="30" alt="Power Automate" title="Microsoft Power Automate" class="icons" />
+    <img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1408/1.0.1408.2187/powerbi/icon.png" width="30" height="30" alt="Power BI" title="Microsoft Power BI" class="icons" />
+    <img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1416/1.0.1416.2232/sharepointonline/icon.png" width="30" height="30" alt="SharePoint" title="Microsoft SharePoint" class="icons" />
+    <img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1411/1.0.1411.2206/azuread/icon.png" width="30" height="30" alt="Active Directory" title="Azure Active Directory" class="icons" />
+    <img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1416/1.0.1416.2232/vsts/icon.png" width="30" height="30" alt="DevOps" title="Azure DevOps" class="icons" />
+    <img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1403/1.0.1403.2163/azuredatalake/icon.png" width="30" height="30" alt="Data Lake" title="Azure Data Lake" class="icons" />
+    <img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1403/1.0.1403.2163/azuredatafactory/icon.png" width="30" height="30" alt="Data Factory" title="Azure Data Factory" class="icons" />
+    <img src="https://connectoricons-prod.azureedge.net/azurevm/icon_1.0.1358.2031.png" width="30" height="30" alt="VM" title="Azure VM" class="icons" />
+    <img src="https://docs.microsoft.com/en-us/connectors/connector-reference/media/logicapps-32.png" width="30" height="30" alt="Logic Apps" title="Azure Logic Apps" class="icons" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="30" height="30" alt="HTML5" title="HTML5" class="icons" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" width="30" height="30" alt="CSS3" title="CSS3" class="icons" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Badge_js-strict.svg/739px-Badge_js-strict.svg.png" width="30" height="30" alt="JavaScript" title="JavaScript" class="icons" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png" width="30" height="30" alt="C#" title="C#" class="icons" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png" width="30" height="30" alt=".NET Framework" title=".NET Framework" class="icons" />
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png" height="30" alt="Java" title="Java" class="icons" />
+    <img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1416/1.0.1416.2233/sql/icon.png" width="30" height="30" alt="SQL Server" title="SQL Server" class="icons" />
+    <img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1416/1.0.1416.2233/postgresql/icon.png" width="30" height="30" alt="PostgreSQL" title="PostgreSQL" class="icons" />
 </p>
 
 <hr style="width:100%; height:1px">
