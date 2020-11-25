@@ -24,7 +24,6 @@ My name is Dave. I'm a Microsoft Dynamics Developer, musician, writer and Vetera
 
 <!--- Technology stack section -->
 <h4>Technology Stack:</h4><br>
-    <p>
             <img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1411/1.0.1411.2206/dynamicscrmonline/icon.png" width="30" height="30" alt="Dynamics 365" title="Microsoft Dynamics 365" class="icons" />
             <img src="https://powerapps.microsoft.com/images/application-logos/svg/powerapps.svg" width="30" height="30" alt="Power Apps" title="Microsoft Power Apps" class="icons" />
             <img src="https://powerapps.microsoft.com/images/application-logos/svg/powerautomate.svg" width="30" height="30" alt="Power Automate" title="Microsoft Power Automate" class="icons" />
@@ -44,12 +43,11 @@ My name is Dave. I'm a Microsoft Dynamics Developer, musician, writer and Vetera
             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/1200px-Java_programming_language_logo.svg.png" height="30" alt="Java" title="Java" class="icons" />
             <img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1416/1.0.1416.2233/sql/icon.png" width="30" height="30" alt="SQL Server" title="SQL Server" class="icons" />
             <img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1416/1.0.1416.2233/postgresql/icon.png" width="30" height="30" alt="PostgreSQL" title="PostgreSQL" class="icons" />
-    </p>
     
 <hr style="width:100%; height:1px">
 
 <!--- Contact me section -->
-<h3>Connect with me:</h3><br>
+<h3>Connect with me:</h3>
     <a href="https://www.linkedin.com/in/davenull/">
         <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" class="badges" />
     </a><a href="https://stackoverflow.com/users/9586535/dave">
