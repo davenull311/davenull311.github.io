@@ -14,6 +14,8 @@ My name is Dave. I'm a Microsoft Dynamics Developer, musician, writer and Vetera
 <!--- Public profile feeds -->
 <h4>Latest blog posts</h4>
 <!-- BLOG-POST-LIST:START -->
+- [PowerApps: Use HTML to modify form display in model-driven apps?](https://stackoverflow.com/questions/60416906/powerapps-use-html-to-modify-form-display-in-model-driven-apps)
+- [How can I retrieve _POST data from a form created with a foreach loop?](https://stackoverflow.com/questions/54598012/how-can-i-retrieve-post-data-from-a-form-created-with-a-foreach-loop)
 <!-- BLOG-POST-LIST:END -->
 
 <h4>StackOverflow Activity</h4>
