@@ -9,7 +9,7 @@
 <h3>About me</h3>
 My name is Dave. I'm a Microsoft Dynamics Developer, musician, writer and Veteran advocate.
 
-<hr style="width:100%; height:1px"
+<hr style="width:100%; border-top:1px dotted black"
 
 <!--- Public profile feeds -->
 <h4>Latest blog posts</h4>
