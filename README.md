@@ -3,6 +3,8 @@
 [![Linkedin: davenull](https://img.shields.io/badge/-Dave%20Null-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/davenull/)](https://www.linkedin.com/in/davenull/)
 [![Twitter Follow](https://img.shields.io/twitter/follow/davenull311?label=davenull311)](https://twitter.com/davenull311)
 
+<!--- <hr style="border:none; border-top:1px dotted #f00; color:#fff; height:1px; width:80%" -->
+
 -----
 
 <!--- About me section -->
@@ -50,9 +52,8 @@ My name is Dave. I'm a Microsoft Dynamics Developer, musician, writer and Vetera
 
 <!--- Contact me section -->
 ### Connect with me:
-    <a href="https://www.linkedin.com/in/davenull/">
-        <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" class="badges" />
-    </a><a href="https://stackoverflow.com/users/9586535/dave">
+    [![Linkedin: davenull](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" class="badges" )](https://www.linkedin.com/in/davenull/)
+    <a href="https://stackoverflow.com/users/9586535/dave">
         <img src="https://img.shields.io/badge/stack%20overflow-FE7A16?logo=stack-overflow&logoColor=white&style=for-the-badge" class="badges" />
     </a>
     <a href="https://dev.to/davenull311">
