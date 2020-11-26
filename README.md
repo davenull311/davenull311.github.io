@@ -51,8 +51,10 @@ My name is Dave. I'm a Microsoft Dynamics Developer, musician, writer and Vetera
 -----
 
 <!--- Contact me section -->
-### Connect with me:
-    [![Linkedin: davenull](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" class="badges" )](https://www.linkedin.com/in/davenull/)
+<h3>Connect with me:</h3><br>
+    <a href="https://www.linkedin.com/in/davenull/">
+        <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" class="badges" />
+    </a>
     <a href="https://stackoverflow.com/users/9586535/dave">
         <img src="https://img.shields.io/badge/stack%20overflow-FE7A16?logo=stack-overflow&logoColor=white&style=for-the-badge" class="badges" />
     </a>
