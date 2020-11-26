@@ -16,12 +16,3 @@ jobs:
           feed_list: "https://dev.to/feed/davenull311"
           max_post_count: 3
           template: $title $newline $description
-  
-  update-readme-with-stack-overflow:
-    name: Update this repo's README with latest activity from StackOverflow
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@master
-        with:
-          feed_list: "https://stackoverflow.com/feeds/user/9586535"
