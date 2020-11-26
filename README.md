@@ -1,29 +1,29 @@
-<h2>Hi there 👋</h2>
+## Hi there 👋
 
 [![Linkedin: davenull](https://img.shields.io/badge/-Dave%20Null-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/davenull/)](https://www.linkedin.com/in/davenull/)
 [![Twitter Follow](https://img.shields.io/twitter/follow/davenull311?label=davenull311)](https://twitter.com/davenull311)
 
-<hr style="width:100%; height:1px">
+-----
 
 <!--- About me section -->
-<h3>About me</h3>
+### About me
 My name is Dave. I'm a Microsoft Dynamics Developer, musician, writer and Veteran advocate.
 
-<hr style="width:100%; height:1px">
+-----
 
 <!--- Public profile feeds -->
-<h4>Latest blog posts</h4>
+##### Latest blog posts
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
-<h4>StackOverflow Activity</h4>
+##### StackOverflow Activity
 <!-- STACKOVERFLOW:START -->
 <!-- STACKOVERFLOW:END -->
 
-<hr style="width:100%; height:1px">
+-----
 
 <!--- Technology stack section -->         
-<h4>Technology Stack:</h4><br>
+#### Technology Stack:
 <p> 
     <img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1411/1.0.1411.2206/dynamicscrmonline/icon.png" width="30" height="30" alt="Dynamics 365" title="Microsoft Dynamics 365" class="icons" />
     <img src="https://powerapps.microsoft.com/images/application-logos/svg/powerapps.svg" width="30" height="30" alt="Power Apps" title="Microsoft Power Apps" class="icons" />
@@ -46,10 +46,10 @@ My name is Dave. I'm a Microsoft Dynamics Developer, musician, writer and Vetera
     <img src="https://connectoricons-prod.azureedge.net/releases/v1.0.1416/1.0.1416.2233/postgresql/icon.png" width="30" height="30" alt="PostgreSQL" title="PostgreSQL" class="icons" />
 </p>
 
-<hr style="width:100%; height:1px">
+-----
 
 <!--- Contact me section -->
-<h3>Connect with me:</h3>
+### Connect with me:
     <a href="https://www.linkedin.com/in/davenull/">
         <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" class="badges" />
     </a><a href="https://stackoverflow.com/users/9586535/dave">
