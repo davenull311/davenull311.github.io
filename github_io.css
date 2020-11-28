@@ -13,7 +13,7 @@ body{
 	margin: auto;
 	border-radius: 15px;
 	border: 4px dotted;
-	border-image:linear-gradient(to right, #FB9039, #1F3044);
+	border-image: linear-gradient(to right, #FB9039, #1F3044);
 	align-items:center;
 	justify-content:center;
 	white-space: nowrap;
