@@ -21,7 +21,9 @@ body{
 }
 */
 .temp_banner{
-	max-width: 300px;
+	/*max-width: 300px;*/
+	width: 33%;
+	height: 33%;
 	padding: 1rem;
 	border-width: 3px;
 	border-style: solid;
