@@ -20,6 +20,12 @@ body{
 	text-overflow: ellipsis;
 }
 */
+.temp{
+    display: flex;
+    align-items: center;
+    margin-left: -1rem; /* Cancels the left margin for the first element */
+}
+
 .temp_banner{
 	/*max-width: 300px;*/
 	width: 33%;
