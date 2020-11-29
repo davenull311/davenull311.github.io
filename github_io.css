@@ -21,9 +21,8 @@ body{
 }
 */
 .temp_banner{
-	max-width: 400px;
+	max-width: 300px;
 	padding: 1rem;
-	color: white;
 	border-width: 3px;
 	border-style: solid;
 	border-image: linear-gradient(to bottom, #FB9039, #1F3044) 1 100%;
