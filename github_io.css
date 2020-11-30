@@ -61,6 +61,10 @@ body{
 	opacity: 0.75;
 }
 
+.redirect_1{
+	padding: 1rem;
+}
+
 .github_logo{
 	filter: invert(100%);
 }
