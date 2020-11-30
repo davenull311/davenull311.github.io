@@ -60,3 +60,7 @@ body{
 	font-size: 0.25rem;
 	opacity: 0.75;
 }
+
+.github_logo{
+	filter: invert(100%);
+}
