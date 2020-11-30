@@ -57,7 +57,7 @@ body{
 .redirect{
 	/*display: flex;*/
 	align-items:center;
-	font-size: 0.25rem;
+	font-size: 0.5rem;
 	opacity: 0.75;
 }
 
