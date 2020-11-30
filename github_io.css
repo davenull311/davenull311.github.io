@@ -9,6 +9,7 @@ body{
 /* LINKS */
 :link{
 	color: #FB9093;
+	text-decoration: none;
 }
 
 :visited{
