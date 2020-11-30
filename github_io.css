@@ -22,8 +22,8 @@ body{
 	/*max-width: 300px;*/
 	writing-mode: initial;
 	margin-left: 1rem;
-	width: 33%;
-	height: 33%;
+	/*width: 33%;*/
+	height: 100%;
 	padding: 1rem;
 	border-width: 3px;
 	border-style: solid;
