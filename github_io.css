@@ -13,7 +13,7 @@ body{
 
 :visited{
 	color: #FB9093;
-	opacity: 0.5;
+	opacity: 0.75;
 }
 
 :hover{
@@ -54,6 +54,7 @@ body{
 }
 
 .redirect{
+	display: flex;
 	align-items:center;
 	font-size: 0.25rem;
 	opacity: 0.75;
