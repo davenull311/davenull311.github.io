@@ -6,12 +6,30 @@ body{
 	font-family: 'Montserrat', sans-serif;
 }
 
+/* LINKS */
+:link{
+	color: #FB9093;
+}
+
+:visited{
+	color: #FB9093;
+	opacity: 0.5;
+}
+
+:hover{
+	opacity: 1.0;
+}
+
+:active{
+	font-style: italic;
+}
+
+/* CLASSES */
 .temp{
     display: flex;
     align-items: center;
     margin-left: -1rem; /* Cancels the left margin for the first element */
 }
-
 
 .temp_banner{
 	writing-mode: vertical-lr;
@@ -33,4 +51,9 @@ body{
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+}
+
+.redirect{
+	font-size: 0.25rem;
+	opacity: 0.75;
 }
