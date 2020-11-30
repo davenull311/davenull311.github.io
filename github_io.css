@@ -56,9 +56,8 @@ body{
 }
 
 .redirect{
-	/*display: flex;*/
+	display: flex;
 	align-items:center;
-	font-size: 0.5rem;
 	opacity: 0.75;
 }
 
