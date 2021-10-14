@@ -68,3 +68,17 @@ body{
 .github_logo{
 	filter: invert(100%);
 }
+
+.typed-out{
+	overflow: hidden;
+	border-right: .15em;
+	white-space: nowrap;
+	font-size: 1.6rem;
+	width: 0;
+	animation: typing 2s forwards;
+}
+
+@keyframes typing{
+	from {width: 0}
+	to {width: 100%}
+}
