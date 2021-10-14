@@ -69,6 +69,10 @@ body{
 	filter: invert(100%);
 }
 
+.container{
+	display: inline-block;
+}
+
 .typed-out{
 	overflow: hidden;
 	border-right: .15em;
