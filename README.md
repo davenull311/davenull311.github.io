@@ -23,11 +23,11 @@ My name is Dave. I'm a Microsoft Dynamics Developer, musician, writer and Vetera
 <!--- Projects -->
 
 ### JavaScript Puzzle Game
-<p>
+
     - Working with a camera and manipulating images
     - HTML Canvas, drag and drop images
     - Basic gameplay elements, such as a scoreboard
     - Working with sound
     - MySQL, PHP
     - Advanced cropping and hit-testing
-</p>
+
