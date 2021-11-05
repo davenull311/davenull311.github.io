@@ -19,3 +19,15 @@ My name is Dave. I'm a Microsoft Dynamics Developer, musician, writer and Vetera
         <img src="https://img.shields.io/badge/DEV.TO-%230A0A0A.svg?&style=for-the-badge&logo=dev.to&logoColor=white" class="badges" />
     </a>
 </p>
+
+<!--- Projects -->
+
+<p>
+    ### JavaScript Puzzle Game
+    - Working with a camera and manipulating images
+    - HTML Canvas, drag and drop images
+    - Basic gameplay elements, such as a scoreboard
+    - Working with sound
+    - MySQL, PHP
+    - Advanced cropping and hit-testing
+</p>
