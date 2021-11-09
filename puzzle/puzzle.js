@@ -1,3 +1,5 @@
+const { format } = require("path");
+
 // Global variables
 let VIDEO = null;
 let CANVAS = null;
@@ -6,6 +8,8 @@ let SCALER = 0.75;                                                          // S
 let SIZE = {x: 0, y: 0, width: 0, height: 0, rows: 3, columns: 3};          // X, y, width and height set dynamically below - DO NOT ADJUST HERE
 let PIECES = [];
 let SELECTED_PIECE = null;
+let START_TIME = null;
+let END_TIME = null;
 
 function main(){
 // Initialize canvas and context, set canvas size
@@ -26,7 +30,7 @@ function main(){
             handleResize();
             window.addEventListener('resize',handleResize);
             initializePieces(SIZE.rows, SIZE.columns);
-            updateCanvas();
+            updateGame();
         }
 
 // Deal with errors, i.e. no web came or denied privileges...
@@ -34,6 +38,65 @@ function main(){
         alert("Camera error: " +err);
     });
     
+}
+
+function setDifficulty(){
+    let diff = document.getElementById("difficulty").ariaValueMax;
+    switch(diff){
+        case "easy":
+            initializePieces(3,3);
+            break;
+        case "medium":
+            initializePieces(5,5);
+            break;
+        case "hard":
+            initializePieces(10,10);
+            break;
+        case "insane":
+            initializePieces(40,25);
+            break;
+    }
+}
+
+function restart(){
+    START_TIME = new Date().getTime();
+    END_TIME = null;
+    randomizePieces();
+}
+
+function updateTime(){
+    let now = new Date().getTime();
+    if(START_TIME != null){
+        if(END_TIME != null){
+            document.getElementById("time").innerHTML = formatTime(END_TIME - START_TIME);
+        } else {
+            document.getElementById("time").innerHTML = formatTime(now - START_TIME);
+        }
+    }
+}
+
+function isComplete(){
+    for (let i = 0; i < PIECES.length; i++){
+        if(PIECES[i].correct == false){
+            return false;
+        }
+    }
+    return true;
+}
+
+function formatTime(milliseconds){
+    let seconds = Math.floor(milliseconds / 1000);
+    let s = Math.floor(seconds % 60);
+    let m = Math.floor(seconds % ((60 * 60)) / 60);
+    let h = Math.floor(seconds % ((60 * 60 * 24)) / (60 * 60));
+
+    let formattedTime = h.toString().padStart(2,'0');
+    formattedTime += ":";
+    formattedTime += m.toString().padStart(2,'0');
+    formattedTime += ":";
+    formattedTime += s.toString().padStart(2,'0');
+
+    return formattedTime;
 }
 
 function addEventListeners(){
@@ -58,6 +121,7 @@ function onMouseDown(evt){
             x: evt.x-SELECTED_PIECE.x,
             y: evt.y-SELECTED_PIECE.y
         }
+        SELECTED_PIECE.correct = false;
     }
 }
 
@@ -87,6 +151,10 @@ function onMouseMove(evt){
 function onMouseUp(){
     if(SELECTED_PIECE.isClose()){
         SELECTED_PIECE.snap();
+        if(isComplete() && END_TIME == null){
+            let now = new Date().getTime();
+            END_TIME = now;
+        }
     }
     SELECTED_PIECE = null;
 }
@@ -117,7 +185,7 @@ function handleResize(){
     SIZE.y = window.innerHeight/2 - SIZE.height/2;
 }
 
-function updateCanvas(){
+function updateGame(){
 // Draw the video onto the HTML Canvas
     CONTEXT.clearRect(0, 0, CANVAS.width, CANVAS.height);
 
@@ -131,7 +199,8 @@ function updateCanvas(){
         PIECES[i].draw(CONTEXT);
     }
 
-    window.requestAnimationFrame(updateCanvas);
+    updateTime();
+    window.requestAnimationFrame(updateGame);
 
 }
 
@@ -158,6 +227,7 @@ function randomizePieces(){
         }
         PIECES[i].x = loc.x;
         PIECES[i].y = loc.y;
+        PIECES[i].correct = false;
     }
 }
 
@@ -171,6 +241,7 @@ class Piece {
         this.y = SIZE.y + SIZE.height * this.rowIndex / SIZE.rows;          // Sets y coordinate in order (will change)
         this.xCorrect = this.x;                                             // Save the xCorrect value at initiation
         this.yCorrect = this.y;                                             // Save the yCorrect value at initiation
+        this.correct = true;
     }
 
     draw (context){
@@ -201,6 +272,7 @@ class Piece {
     snap(){
         this.x = this.xCorrect;
         this.y = this.yCorrect;
+        this.correct = true;
     }
 
 }
