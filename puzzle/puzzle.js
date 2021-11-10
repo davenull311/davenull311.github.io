@@ -5,7 +5,7 @@ let VIDEO = null;
 let CANVAS = null;
 let CONTEXT = null;
 let SCALER = 0.75;                                                          // Sets percent of screen the image takes up
-let SIZE = {x: 0, y: 0, width: 0, height: 0, rows: 3, columns: 3};          // X, y, width and height set dynamically below - DO NOT ADJUST HERE
+let SIZE = {x: 0, y: 0, width: 0, height: 0, rows: 3, columns: 3};          // X, y, width and height set dynamically with 'setDifficulty' function - DO NOT ADJUST HERE
 let PIECES = [];
 let SELECTED_PIECE = null;
 let START_TIME = null;
@@ -62,6 +62,7 @@ function restart(){
     START_TIME = new Date().getTime();
     END_TIME = null;
     randomizePieces();
+    document.getElementById("menuItems").style.display = none;
 }
 
 function updateTime(){

@@ -15,6 +15,8 @@ body{
     padding: 5vmin;
     border: 0.75vmin rgba(0, 0, 0, 0.6) solid;
     border-radius: 1vmin;
+    font-size: 2vmin;
+
 }
 
 button{
@@ -31,4 +33,14 @@ button{
 button:hover{
     background: orange;
     color: black;
+
+}
+
+select{
+    font-size: 1.75vmin;
+    cursor: pointer;
+    border: none;
+    border-radius: 1vmin;
+    outline: none;
+
 }
