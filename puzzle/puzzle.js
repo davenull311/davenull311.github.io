@@ -11,6 +11,9 @@ let SELECTED_PIECE = null;
 let START_TIME = null;
 let END_TIME = null;
 
+let CLICK_SOUND = new Audio('sounds/click.wav');
+CLICK_SOUND.volume = 0.2;
+
 function main(){
 // Initialize canvas and context, set canvas size
     CANVAS = document.getElementById("puzzleCanvas");
@@ -274,6 +277,7 @@ class Piece {
         this.x = this.xCorrect;
         this.y = this.yCorrect;
         this.correct = true;
+        CLICK_SOUND.play();
     }
 
 }
