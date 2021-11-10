@@ -1,4 +1,4 @@
-const { format } = require("path");
+// const { format } = require("path");
 
 // Global variables
 let VIDEO = null;
@@ -41,7 +41,7 @@ function main(){
 }
 
 function setDifficulty(){
-    let diff = document.getElementById("difficulty").ariaValueMax;
+    let diff = document.getElementById("difficulty").value;
     switch(diff){
         case "easy":
             initializePieces(3,3);
@@ -53,7 +53,7 @@ function setDifficulty(){
             initializePieces(10,10);
             break;
         case "insane":
-            initializePieces(40,25);
+            initializePieces(20,20);
             break;
     }
 }
@@ -87,8 +87,8 @@ function isComplete(){
 function formatTime(milliseconds){
     let seconds = Math.floor(milliseconds / 1000);
     let s = Math.floor(seconds % 60);
-    let m = Math.floor(seconds % ((60 * 60)) / 60);
-    let h = Math.floor(seconds % ((60 * 60 * 24)) / (60 * 60));
+    let m = Math.floor((seconds % (60 * 60)) / 60);
+    let h = Math.floor((seconds % (60 * 60 * 24)) / (60 * 60));
 
     let formattedTime = h.toString().padStart(2,'0');
     formattedTime += ":";
