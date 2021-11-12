@@ -11,8 +11,11 @@ let SELECTED_PIECE = null;
 let START_TIME = null;
 let END_TIME = null;
 
+// Define game sounds
 let CLICK_SOUND = new Audio('sounds/click.wav');
 CLICK_SOUND.volume = 0.2;
+let WIN_SOUND = new Audio('sounds/win.wav');
+WIN_SOUND.volume = 0.2;
 
 function main(){
 // Initialize canvas and context, set canvas size
@@ -158,6 +161,7 @@ function onMouseUp(){
         if(isComplete() && END_TIME == null){
             let now = new Date().getTime();
             END_TIME = now;
+            WIN_SOUND.play();
         }
     }
     SELECTED_PIECE = null;
