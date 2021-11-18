@@ -122,7 +122,10 @@ function onMouseDown(evt){
         return;
     }
     const clickedColor = "rgb(" + imgData.data[0] + "," + imgData.data[1] + "," + imgData.data[2] + ")";
+    
+    // SELECTED_PIECE = getPressedPieceByColor(evt,clickedColor);
     SELECTED_PIECE = getPressedPiece(evt);
+    
     if(SELECTED_PIECE!=null){
         const index = PIECES.indexOf(SELECTED_PIECE);
         if (index > -1){
