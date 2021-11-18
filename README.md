@@ -26,7 +26,7 @@ My name is Dave. I'm a Microsoft Dynamics Developer, musician, writer and Vetera
 
 #### JavaScript Puzzle Game
 
-    - Working with a camera and manipulating images :white_check_mark:
+    - :ballot_box_with_check: Working with a camera and manipulating images :white_check_mark:
     - HTML Canvas, drag and drop images :white_check_mark:
     - Basic gameplay elements, such as a scoreboard :white_check_mark:
     - Working with sound :white_check_mark:
