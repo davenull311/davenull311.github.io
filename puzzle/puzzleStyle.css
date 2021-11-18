@@ -5,7 +5,7 @@ body{
 
 }
 
-#menuItems{
+.menu{
     width: 60vmin;
     position: absolute;
     top: 50%;

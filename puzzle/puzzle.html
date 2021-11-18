@@ -8,10 +8,10 @@
 
     <body onload="main()">
         <canvas id="puzzleCanvas"></canvas>
-        <div id="menuItems">
+        <div id="menuItems" class="menu">
             <div id="menu">
                 <div id="controls">
-                    <img src = "images/puzzle_cam_logo.png" style = 'width:95%;'/><br><br>
+                    <img src = "images/puzzle_cam_logo.png" style = 'width: 95%;'/><br><br>
                     Difficulty: <select id="difficulty" onchange="setDifficulty()">
                         <option value="easy">Easy</option>
                         <option value="medium">Medium</option>
@@ -22,6 +22,17 @@
                     <button onclick="restart()">Start</button>
                 </div>
             </div>
+        </div>
+
+        <div id="endScreen" class="menu" style="display: none">
+            <img src = "images/puzzle_cam_logo.png" style = 'width: 95%;'/><br><br>
+            <div id="scoreValue">
+                <!-- show user score -->
+            </div>    
+            
+            <br><br>
+
+            <button onclick="showMenu()">Menu</button>
         </div>
         
         <div id="time"></div>
