@@ -3,7 +3,7 @@
     height: 60px;
     border: 2px solid white;
     border-radius: 10px;
-    background-color: transparent;
+    background-color: lightgray;
     cursor: pointer;
     position: relative;
 }
