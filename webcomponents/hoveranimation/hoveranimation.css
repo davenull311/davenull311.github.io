@@ -37,3 +37,26 @@
 .hover_button:hover i{
     transform: translateX(3px);
 }
+
+
+
+.btn{
+    height: 64px;
+}
+
+.btn:: before{
+    content: '';
+    display: block;
+    position: absolute;
+    inset: 0;
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+    z-index: -1;
+    background: #aef0d6;
+    transition: width 200ms;
+}
+
+.btn:is(:hover,:focus)::before{
+    width: 100%;
+}
