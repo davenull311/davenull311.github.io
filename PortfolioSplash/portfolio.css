@@ -25,6 +25,37 @@
     border-radius: 5px;
 }
 
+#project-gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px; 
+}
+
+#project-gallery img {
+    width: 33%;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 8px;
+    padding: 0 4px;
+    border-radius: 10px;
+    border: 1px darkgray;
+}
+
+@media (max-width: 800px) {
+    #project-gallery img {
+      width: 50%;
+    }
+}
+
+@media (max-width: 400px) {
+    #project-gallery img {
+      width: 100%;
+    }
+}
+
 .content{
     padding: 16px;
 }
