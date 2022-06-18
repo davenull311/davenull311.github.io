@@ -48,7 +48,7 @@
     border: 1px darkgray;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     #project-gallery img {
       width: 50%;
     }
