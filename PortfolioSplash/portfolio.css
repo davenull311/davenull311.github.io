@@ -26,10 +26,15 @@ body{
 #nav-bar a{
     float: left;
     display: block;
-    color: darkgray;
+    background-color: darkgray;
+    color: white;
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: sans-serif;
+    color
 }
 
 #project-highlights{
