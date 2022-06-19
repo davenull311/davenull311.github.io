@@ -4,13 +4,13 @@
 
 body{
     background-color: lightgray;
+    justify-content: center;
 }
 
 #biz-card-profile{
     width: 80%;
     height: 60%;
     background-color: gray;
-    justify-content: center;
     border: black;
     border-radius: 5px;
 }
