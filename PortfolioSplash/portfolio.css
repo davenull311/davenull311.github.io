@@ -13,6 +13,7 @@ body{
     background-color: gray;
     border: black;
     border-radius: 5px;
+    padding-bottom: 8px;
 }
 
 #nav-bar{
