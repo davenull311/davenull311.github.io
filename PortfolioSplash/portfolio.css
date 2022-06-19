@@ -8,6 +8,8 @@ body{
 }
 
 #biz-card-profile{
+    display: flex;
+    flex-direction: row;
     width: 80%;
     height: 60%;
     background-color: gray;
