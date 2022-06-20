@@ -27,6 +27,7 @@ body{
     color: white;
     background-color: #1c92d2;
     border-radius: 10px 0 0 10px;
+    justify-content: center;
 }
 
 #biz-card-right{
