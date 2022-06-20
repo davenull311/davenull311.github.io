@@ -18,6 +18,16 @@ body{
     margin-bottom: 8px;
 }
 
+#biz-card-left{
+    width: 16%;
+    padding: 8px;
+}
+
+#biz-card-right{
+    width: 84%;
+    padding: 8px;
+}
+
 #nav-bar{
     overflow: hidden;
     background-color: darkgray;
