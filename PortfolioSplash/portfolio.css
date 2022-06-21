@@ -4,15 +4,15 @@
 
 body{
     background-color: lightgray;
-    justify-content: center;
     font-family: sans-serif;
 }
 
 #biz-card-profile{
     display: flex;
     flex-direction: row;
-    width: 80%;
-    height: 60%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background-color: gray;
     border: black;
     border-radius: 10px;
@@ -96,16 +96,12 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 0 4px; 
 }
 
 #project-gallery img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    margin-top: 4px;
-    padding: 0 4px;
-    border: 1px darkgray;
 }
 
 @media (max-width: 400px) {
@@ -187,7 +183,15 @@ body{
     transition-delay: 0s;
 }
 
+.biz-card-menu{
+    color: white;
+}
 
+.biz-card-menu:hover{
+    color: darkgray;
+    background-color: #f2fcfe;
+    border-radius: 10px;
+}
 
 .content{
     padding: 16px;
