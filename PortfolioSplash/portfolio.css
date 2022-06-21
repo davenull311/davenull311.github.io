@@ -32,6 +32,7 @@ body{
 
 #biz-card-right{
     width: 80%;
+    height: 100%;
     padding: 8px;
     background: #1c92d2; /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #1c92d2, #f2fcfe); /* Chrome 10-25, Safari 5.1-6 */
