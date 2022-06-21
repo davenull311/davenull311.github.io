@@ -69,12 +69,15 @@ body{
     color: lightgray;
 }
 
-#profile-links{
+#profile-socials{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: left;
+    padding: 20px;
 }
+
+
 
 #nav-bar{
     overflow: hidden;
