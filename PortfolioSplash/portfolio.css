@@ -91,18 +91,6 @@ body{
     padding: 20px;
 }
 
-#linkedin-img:hover{
-    background: url(https://davenull311.github.io/images/linkedin-blue.svg) no repeat;
-}
-
-#twitter-img:hover{
-    background: url(https://davenull311.github.io/images/twitter-blue.svg) no repeat;
-}
-
-#github-img:hover{
-    background: url(https://davenull311.github.io/images/github-blue.svg) no repeat;
-}
-
 #nav-bar{
     overflow: hidden;
     background-color: darkgray;
