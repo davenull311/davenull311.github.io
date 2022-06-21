@@ -93,12 +93,29 @@ body{
 #profile-socials img{
     height: 50px;
     width: 50px;
-    padding: 10px;
 }
 
 #profile-socials img:hover{
     border: 3px solid white;
     border-radius: 50%;
+}
+
+#profile-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 5px;
+}
+
+#profile-contact img{
+    height: 50px;
+    width: 50px;
+}
+
+#profile-contact img:hover{
+    border: 3px solid white;
+    border-radius: 5px;
 }
 
 #nav-bar{
