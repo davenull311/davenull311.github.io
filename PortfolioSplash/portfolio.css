@@ -24,7 +24,7 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: stretch;
+    align-items: center;
     width: 20%;
     padding: 8px;
     text-transform: uppercase;
@@ -32,7 +32,6 @@ body{
     color: white;
     background-color: #1c92d2;
     border-radius: 10px 0 0 10px;
-    justify-content: center;
 }
 
 #profile-photo img{
@@ -86,8 +85,8 @@ body{
 }
 
 #profile-socials img{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     padding: 10px;
 }
 
