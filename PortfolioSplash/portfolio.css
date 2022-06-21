@@ -49,13 +49,19 @@ body{
     align-items: center;
 }
 
+.biz-card-menu:hover{
+    color: darkgray;
+    background-color: #f2fcfe;
+    border-radius: 5px;
+}
+
 #biz-card-right{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: stretch;
     align-items: 25%;
-    width: 80%;
+    width:100%;
     height: 100%;
     padding: 25px;
     background: #1c92d2; /* fallback for old browsers */
@@ -222,12 +228,6 @@ body{
 
 .biz-card-menu{
     color: white;
-}
-
-.biz-card-menu:hover{
-    color: darkgray;
-    background-color: #f2fcfe;
-    border-radius: 10px;
 }
 
 .content{
