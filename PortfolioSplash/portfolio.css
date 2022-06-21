@@ -80,7 +80,8 @@ body{
 
 #nav-bar a:hover{
     background-color: #f2fcfe;
-    
+    color: darkgray;
+    font-size: 22px;
 }
 
 #project-highlights{
@@ -116,7 +117,7 @@ body{
     background-color: #1c92d2;
     color: #ffffff;
     text-align: center;
-    border: 5px solid #ffffff
+    border: 5px solid #ffffff;
     overflow: hidden;
 }
 
