@@ -69,6 +69,13 @@ body{
     color: lightgray;
 }
 
+#profile-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 #nav-bar{
     overflow: hidden;
     background-color: darkgray;
