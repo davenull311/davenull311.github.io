@@ -76,12 +76,6 @@ body{
     color: white;
 }
 
-#profile-contact{
-    text-transform: uppercase;
-    font-size: 16px;
-    color: lightgray;
-}
-
 #profile-socials{
     display: flex;
     flex-direction: row;
@@ -105,12 +99,15 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: left;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: lightgray;
     padding: 5px;
 }
 
 #profile-contact img{
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
 }
 
 #profile-contact img:hover{
