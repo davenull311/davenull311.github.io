@@ -104,13 +104,13 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: left;
     padding: 5px;
 }
 
 #profile-contact img{
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
 
 #profile-contact img:hover{
