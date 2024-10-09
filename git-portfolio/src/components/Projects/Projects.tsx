@@ -53,11 +53,14 @@ const Projects: React.FC = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
         <div className="mb-8">
-          <select
-            className="w-full md:w-auto px-4 py-2 border rounded-md"
-            value={filter}
-            onChange={(e) => setFilter(e.target.value)}
-          >
+<label htmlFor="project-filter" className="sr-only">Filter projects</label>
+<select
+  id="project-filter"
+  className="w-full md:w-auto px-4 py-2 border rounded-md"
+  value={filter}
+  onChange={(e) => setFilter(e.target.value)}
+  aria-label="Filter projects"
+>
             <option value="all">All Projects</option>
             <option value="React">React</option>
             <option value="TypeScript">TypeScript</option>
