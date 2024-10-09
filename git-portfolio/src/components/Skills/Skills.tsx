@@ -32,7 +32,7 @@ const Skills: React.FC<SkillsProps> = ({ categories }) => {
           >
             View Resume
           </a>
-          </div>
+        </div>
       </div>
     </section>
   );

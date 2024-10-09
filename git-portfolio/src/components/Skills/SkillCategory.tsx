@@ -30,3 +30,5 @@ const SkillCategory: React.FC<SkillCategoryProps> = ({ category, isExpanded, onT
     </div>
   );
 };
+
+export default SkillCategory;

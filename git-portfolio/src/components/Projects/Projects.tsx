@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import ProjectCard from './ProjectCard';
-import FilterBar from './FilterBar';
 
 interface Project {
-  id: string;
+  id: number;
   title: string;
   description: string;
   image: string;
@@ -12,34 +11,33 @@ interface Project {
   githubLink: string;
 }
 
-interface ProjectsProps {
-  projects: Project[];
-}
+const Projects: React.FC = () => {
+  const [filter, setFilter] = useState('all');
 
-const Projects: React.FC<ProjectsProps> = ({ projects }) => {
-  const [filteredProjects, setFilteredProjects] = useState<Project[]>(projects);
+  const projects: Project[] = [
+    {
+      id: 1,
+      title: 'Project 1',
+      description: 'Description for Project 1',
+      image: 'project1.jpg',
+      tags: ['React', 'TypeScript'],
+      demoLink: 'https://demo1.com',
+      githubLink: 'https://github.com/project1',
+    },
+    // Add more projects here
+  ];
 
-  const handleFilter = (tag: string) => {
-    if (tag === 'All') {
-      setFilteredProjects(projects);
-    } else {
-      setFilteredProjects(projects.filter(project => project.tags.includes(tag)));
-    }
-  };
+  const filteredProjects = filter === 'all' ? projects : projects.filter(project => project.tags.includes(filter));
 
   return (
     <section id="projects" className="py-16 bg-gray-100">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
-        <FilterBar tags={['All', ...new Set(projects.flatMap(p => p.tags))]} onFilter={handleFilter} />
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-8">
-          {filteredProjects.map(project => (
-            <ProjectCard key={project.id} project={project} />
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
-
-export default Projects;
+        <div className="mb-8">
+          <select
+            className="w-full md:w-auto px-4 py-2 border rounded-md"
+            value={filter}
+            onChange={(e) => setFilter(e.target.value)}
+          >
+            <option value="all">All Projects</option>
+            <option value="React">React</option>
