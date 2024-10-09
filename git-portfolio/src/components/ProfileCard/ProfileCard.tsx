@@ -10,7 +10,9 @@ const ProfileCard: React.FC = () => {
         <div className="md:w-2/3">
           <h1 className="text-6xl md:text-9xl font-bold mb-4">DAVE NULL</h1>
           <p className="text-xl mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
           <div className="flex flex-col space-y-4">
             <div className="flex items-center">

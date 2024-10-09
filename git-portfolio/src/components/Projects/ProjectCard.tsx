@@ -41,3 +41,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             className="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-900 transition duration-300"
           >
             GitHub
+            </a>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ProjectCard;

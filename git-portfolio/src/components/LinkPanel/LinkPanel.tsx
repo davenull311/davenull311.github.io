@@ -1,7 +1,13 @@
 import React from 'react';
 
+interface Link {
+  name: string;
+  url: string;
+  icon: string;
+}
+
 const LinkPanel: React.FC = () => {
-  const links = [
+  const links: Link[] = [
     { name: 'LinkedIn', url: 'https://www.linkedin.com/', icon: 'linkedin-icon.svg' },
     { name: 'GitHub', url: 'https://github.com/', icon: 'github-icon.svg' },
     { name: 'Stack Overflow', url: 'https://stackoverflow.com/', icon: 'stackoverflow-icon.svg' },
