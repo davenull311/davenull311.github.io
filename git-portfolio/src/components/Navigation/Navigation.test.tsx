@@ -45,3 +45,7 @@ describe('Navigation', () => {
       expect(nav).toHaveClass('fixed');
     });
   });
+
+function expect(element: HTMLElement) {
+  throw new Error('Function not implemented.');
+}
