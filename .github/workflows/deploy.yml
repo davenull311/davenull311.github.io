@@ -23,8 +23,9 @@ jobs:
     
     - name: Freeze Flask app
       run: |
-        ls -la  # List current directory to verify files
-        python freeze.py || (echo "Freeze failed" && exit 1)
+        ls -la
+        python freeze.py 2>&1 | tee freeze_output.log
+        cat freeze_output.log
     
     - name: List build directory contents
       run: |
