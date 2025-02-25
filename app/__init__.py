@@ -17,7 +17,16 @@ def create_app():
 
     @app.route('/projects')
     def projects():
-        return render_template('projects.html')
+        projects_data = [
+            {
+                'title': 'Project 1',
+                'description': 'A cool project description',
+                'tech_stack': ['Python', 'Flask', 'JavaScript'],
+                'notes': 'Built this in 2 weeks'
+            },
+            # Add more projects here
+        ]
+        return render_template('projects.html', projects = projects_data)
 
     @app.route('/resume')
     def resume():
