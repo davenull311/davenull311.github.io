@@ -5,8 +5,13 @@ import os
 app = create_app()
 freezer = Freezer(app)
 
-# Set the destination to the absolute path of the root build directory
-freezer.destination = os.path.abspath('build')
+# Explicitly set destination to repo root build directory
+repo_root = os.path.abspath(os.path.dirname(__file__))
+freezer.destination = os.path.join(repo_root, 'build')
+
+# Debug: Print paths for confirmation
+print(f"Repo root: {repo_root}")
+print(f"Freezer destination: {freezer.destination}")
 
 # Debug: Print registered routes
 with app.app_context():
