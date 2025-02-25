@@ -21,5 +21,19 @@ with app.app_context():
         print(f" - {rule}")
 
 if __name__ == '__main__':
+    # Add before freezer.freeze()
+    @freezer.register_generator
+    def url_generator():
+        # Make sure each route gets frozen with proper structure
+        yield {'endpoint': 'index'}
+        yield {'endpoint': 'about'}
+        yield {'endpoint': 'skills'}
+        yield {'endpoint': 'projects'}
+        yield {'endpoint': 'resume'}
+        yield {'endpoint': 'contact'}
+    
     freezer.freeze()
-    print(f"Froze site to: {freezer.root}")
+    print("Generated files:")
+    for root, dirs, files in os.walk(app.config['FREEZER_DESTINATION']):
+        for file in files:
+            print(f" - {os.path.join(root, file)}")

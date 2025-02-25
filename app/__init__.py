@@ -9,15 +9,15 @@ def create_app():
     def index():
         return render_template('index.html')
 
-    @app.route('/about')
+    @app.route('/about/')
     def about():
         return render_template('about.html')
 
-    @app.route('/skills')
+    @app.route('/skills/')
     def skills():
         return render_template('skills.html')
 
-    @app.route('/projects')
+    @app.route('/projects/')
     def projects():
         projects_data = [
             {
@@ -30,11 +30,11 @@ def create_app():
         ]
         return render_template('projects.html', projects=projects_data)
 
-    @app.route('/resume')
+    @app.route('/resume/')
     def resume():
         return render_template('resume.html')
 
-    @app.route('/contact')
+    @app.route('/contact/')
     def contact():
         return render_template('contact.html')
 
