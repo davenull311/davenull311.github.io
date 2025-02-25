@@ -22,12 +22,14 @@ jobs:
         pip install -r requirements.txt
     
     - name: Freeze Flask app
-      run: python freeze.py
+      run: |
+        ls -la  # List current directory to verify files
+        python freeze.py || (echo "Freeze failed" && exit 1)
     
     - name: List build directory contents
       run: |
-        ls -la build/
-        ls -la build/static/
+        ls -la build/ || echo "Build directory not found"
+        ls -la build/static/ || echo "Static directory not found"
     
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
@@ -35,3 +37,5 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build
         force_orphan: true
+        keep_files: false
+        publish_branch: gh-pages
