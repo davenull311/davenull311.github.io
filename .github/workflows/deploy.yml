@@ -38,7 +38,12 @@ jobs:
     - name: Move build files to root
       run: |
         mkdir -p build
-        mv app/build/* build/ || { echo "No files found in app/build/"; ls -la app/build/; exit 1; }
+        if [ -d "app/build" ]; then
+          mv app/build/* build/
+        else
+          echo "No app/build/ directory"
+          exit 1
+        fi
         ls -la build/
     
     - name: List build directory contents
