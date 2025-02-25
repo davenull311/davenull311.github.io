@@ -24,8 +24,14 @@ jobs:
     - name: Freeze Flask app
       run: python freeze.py
     
+    - name: List build directory contents
+      run: |
+        ls -la build/
+        ls -la build/static/
+    
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build
+        force_orphan: true
