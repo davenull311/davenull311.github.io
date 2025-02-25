@@ -1,2 +1,2 @@
 Flask
-Frozen-Flask
+frozen-flask

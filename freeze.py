@@ -1,4 +1,4 @@
-from Flask_Frozen import Freezer
+from flask_frozen import Freezer
 from app import create_app
 
 app = create_app()
