@@ -3,13 +3,14 @@ from app import create_app
 import os
 
 app = create_app()
+app.config['FREEZER_DESTINATION'] = os.path.abspath('build')
+app.config['FREEZER_DEFAULT_MIMETYPE'] = 'text/html'  # Ensure HTML MIME type
+app.config['FREEZER_EXTENSION'] = '.html'  # Force .html extension
+
 freezer = Freezer(app)
 
-# Explicitly set destination to repo root build directory
-repo_root = os.path.abspath(os.path.dirname(__file__))
-freezer.destination = os.path.join(repo_root, 'build')
-
 # Debug: Print paths for confirmation
+repo_root = os.path.abspath(os.path.dirname(__file__))
 print(f"Repo root: {repo_root}")
 print(f"Freezer destination: {freezer.destination}")
 
