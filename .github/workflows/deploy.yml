@@ -32,6 +32,8 @@ jobs:
         ls -la
         python -v freeze.py 2>&1 | tee freeze_output.log
         cat freeze_output.log
+        ls -la app/build/ || echo "No app/build/ directory"
+        ls -la build/ || echo "No build/ directory"
       
     - name: Move build files to root
       run: |
