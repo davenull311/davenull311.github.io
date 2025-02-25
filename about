@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - About</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/" >Home</a>
+        <a href="/about" class="active">About</a>
+        <a href="/skills" >Skills</a>
+        <a href="/projects" >Projects</a>
+        <a href="/resume" >Resume</a>
+        <a href="/contact" >Contact</a>
+    </nav>
+
+    <main>
+        
+    <div class="content-container">
+        <h1>About Me</h1>
+        <section class="about-section">
+            <p>Hey there, I'm Dave!</p> 
+            <p>I'm a versatile tech pro with over five years of experience under my belt, blending roles as a Software Engineer, Cloud Engineer, and Technical Program Manager. I’ve led everything from end-to-end cloud migrations and automation projects to cross-functional teams delivering data-driven solutions for high-profile government and defense initiatives. I’m an Azure whiz (and pretty handy with AWS too!), always focused on designing secure, scalable, and cost-effective PaaS solutions.</p>
+            <p>I also thrive on managing complex go-to-market projects and aligning technical strategies with business goals—whether that's through cloud architecture, data analytics, or collaborative efforts with sales, customer success, and operations teams. With a strong customer-centric approach and a background in military leadership, I bring clarity and efficiency to even the most challenging environments. Let’s build something great together!</p>
+            <p>I believe in continuous learning and am always excited to tackle new challenges.</p>
+            <p>When I'm not coding, you can find me spending quality time with my wife and three kids, playing hockey, or toodling on a guitar or drum kit.</p>
+        </section>
+    </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dave Null. Last updated: February 24, 2025</p>
+    </footer>
+
+    <script src="/static/js/scripts.js"></script>
+</body>
+</html>
