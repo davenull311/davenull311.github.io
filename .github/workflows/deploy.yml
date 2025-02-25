@@ -21,10 +21,16 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     
+    - name: Check directory structure
+      run: |
+        ls -la app/
+        ls -la app/templates/ || echo "Templates directory not found"
+        ls -la app/static/ || echo "Static directory not found"
+    
     - name: Freeze Flask app
       run: |
         ls -la
-        python freeze.py 2>&1 | tee freeze_output.log
+        python -v freeze.py 2>&1 | tee freeze_output.log
         cat freeze_output.log
     
     - name: List build directory contents
