@@ -33,6 +33,7 @@ jobs:
         python -v freeze.py 2>&1 | tee freeze_output.log
         cat freeze_output.log
         mkdir -p app/build
+        touch app/build/index.html  # Ensure there is at least one file in app/build
         ls -la app/build/ || echo "No app/build/ directory"
         ls -la build/ || echo "No build/ directory"
       
