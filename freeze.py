@@ -4,15 +4,15 @@ import os
 
 app = create_app()
 app.config['FREEZER_DESTINATION'] = os.path.abspath('build')
-app.config['FREEZER_DEFAULT_MIMETYPE'] = 'text/html'  # Ensure HTML MIME type
-app.config['FREEZER_EXTENSION'] = '.html'  # Force .html extension
+app.config['FREEZER_DEFAULT_MIMETYPE'] = 'text/html'
+app.config['FREEZER_EXTENSION'] = '.html'
 
 freezer = Freezer(app)
 
 # Debug: Print paths for confirmation
 repo_root = os.path.abspath(os.path.dirname(__file__))
 print(f"Repo root: {repo_root}")
-print(f"Freezer destination: {freezer.destination}")
+print(f"Freezer destination: {app.config['FREEZER_DESTINATION']}")  # Fix: Use app.config
 
 # Debug: Print registered routes
 with app.app_context():
