@@ -39,6 +39,7 @@ footer {
     
     /* Center the card on the screen */
     margin: auto;
+    margin-top: 1rem;
 
     /* Let the width expand up to a max, and keep a min size */
     width: 80vw;
@@ -47,6 +48,7 @@ footer {
   
     /* Basic styling */
     border: 2px solid #ccc;
+    border-radius: 10px;
     box-sizing: border-box;
     background-color: #fff;
     display: flex;
@@ -113,7 +115,7 @@ footer {
   /* Name */
   .name {
     text-align: center;
-    font-size: 5rem;
+    font-size: 3.5rem;
     margin: 0 0 0.5rem;
     font-weight: bold;
   }
