@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - About</title>
+    <title>Dave Null - About</title>
     <link rel="stylesheet" href="static/css/styles.css">
 </head>
 <body>
     <nav class="navbar">
-        <a href="/" >Home</a>
-        <a href="/about" class="active">About</a>
-        <a href="/skills" >Skills</a>
-        <a href="/projects" >Projects</a>
-        <a href="/resume" >Resume</a>
-        <a href="/contact" >Contact</a>
+        <div class="nav-tile"><a href="/" >Home</a></div>
+        <div class="nav-tile"><a href="/about" class="active">About</a></div>
+        <div class="nav-tile"><a href="/skills" >Skills</a></div>
+        <div class="nav-tile"><a href="/projects" >Projects</a></div>
+        <div class="nav-tile"><a href="/resume" >Resume</a></div>
+        <div class="nav-tile"><a href="/contact" >Contact</a></div>
     </nav>
 
     <main>
