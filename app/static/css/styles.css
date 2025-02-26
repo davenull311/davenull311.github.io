@@ -62,7 +62,7 @@ footer {
   }
   
   /* Profile picture styling */
-  .profile-pic {
+  .profile-pic img {
     width: 80%;     
     max-width: 300px;
     height: auto;  
