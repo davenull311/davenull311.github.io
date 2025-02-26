@@ -46,12 +46,14 @@ footer {
     display: flex;
     flex-direction: row;
     padding: 1rem;
-    margin: 0 auto;        /* Center it horizontally if desired */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     font-family: sans-serif;
   }
   
   /* Left side: profile pic & contact info */
   .profile-section {
+    border: 2px dotted #1303ef; /* DELETE AFTER STYLING */
     width: 35%; 
     display: flex;
     flex-direction: column;
@@ -63,11 +65,11 @@ footer {
   
   /* Profile picture styling */
   .profile-pic img {
-    width: 80%;     
-    max-width: 300px;
-    height: auto;  
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50%; 
-    margin-bottom: 2rem;
   }
   
   /* Contact info below the profile pic */
