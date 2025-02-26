@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Contact</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/" >Home</a>
+        <a href="/about" >About</a>
+        <a href="/skills" >Skills</a>
+        <a href="/projects" >Projects</a>
+        <a href="/resume" >Resume</a>
+        <a href="/contact" class="active">Contact</a>
+    </nav>
+
+    <main>
+        
+    <div class="content-container">
+        <h1>Contact Me</h1>
+        <section class="contact-section">
+            <p>Feel free to reach out to me through any of these channels:</p>
+            <ul class="contact-list">
+                <li>Email: <a href="mailto:davenull311@gmail.com">davenull311@gmail.com</a></li>
+                <li>Phone: (717) 512-6904</li>
+                <li>GitHub: <a href="https://github.com/davenull311" target="_blank">github.com/davenull311</a></li>
+                <li>LinkedIn: <a href="https://linkedin.com/in/davenull" target="_blank">linkedin.com/in/davenull</a></li>
+            </ul>
+        </section>
+    </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Dave Null. Last updated: February 24, 2025</p>
+    </footer>
+
+    <script src="static/js/scripts.js"></script>
+</body>
+</html>
