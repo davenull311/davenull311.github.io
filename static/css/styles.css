@@ -69,6 +69,7 @@ footer {
   }
   
   .profile-pic {
+    border: dotted 1px #fd0404; /* DELETE AFTER STYLING */
     width: 100%;
     height: 50%;
     text-align: center;
@@ -78,9 +79,9 @@ footer {
   /* Profile picture styling */
   .profile-pic img {
     width: 80%;
-    display: block;
     margin-left: auto;
     margin-right: auto;
+    vertical-align: middle;
     border-radius: 50%; 
   }
   
