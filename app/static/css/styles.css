@@ -57,7 +57,6 @@ footer {
   
   /* Left side: profile pic & contact info */
   .profile-section {
-    border: 2px dotted #1303ef; /* DELETE AFTER STYLING */
     width: 35%; 
     display: flex;
     flex-direction: column;
@@ -94,6 +93,13 @@ footer {
     height: 2rem;
     margin-right: 0.5rem;
   }
+
+  .contact-tile {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    margin: 0.5rem 0;
+  }
   
   /* Right side: name, headline, description */
   .info-section {
@@ -106,7 +112,7 @@ footer {
   
   /* Name */
   .name {
-    justify-content: center;
+    text-align: center;
     font-size: 5rem;
     margin: 0 0 0.5rem;
     font-weight: bold;
@@ -131,6 +137,10 @@ footer {
 
     .social-icons img {
         height: 3rem;
+    }
+
+    .social-tile {
+        padding: 3rem;
     }
 
 .projects-grid {
