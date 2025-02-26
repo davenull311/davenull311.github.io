@@ -4,17 +4,34 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 {% endblock %}
 {% block content %}
-    <div class="business-card">
-        <div class="card-left">
-            <img src="{{ url_for('static', filename='images/profile.jpg') }}" alt="Profile Picture">
+    <div class="card-container">
+        <div class="profile-section">
+            <div class="profile-pic">
+                <img src="your-photo.jpg" alt="Profile Picture" />
+            </div>
+            <div class="contact-info">
+                <img src="{{ url_for('static', filename='icons/phone.png) }}" alt="Phone"><p>TEXT ME</p>
+                <img src="{{ url_for('static', filename='icons/email.png) }}" alt="Email"><p>Dave@DaveNull311.com</p>
+                <img src="{{ url_for('static', filename='icons/location.png) }}" alt="Location"><p>Knoxville, TN, USA</p>
+            </div>
         </div>
-        <div class="card-right">
-            <h1>Dave Null</h1>
-            <p>Software Engineer</p>
-            <p>Email: davenull311@gmail.com</p>
-            <p>Phone: (717) 512-6904</p>
-            <p>GitHub: github.com/davenull311</p>
-            <p>LinkedIn: linkedin.com/in/davenull</p>
+
+        <div class="info-section">
+            <div class="name">
+                <h1 class="name">DAVE NULL</h1>
+            </div>
+            <div class="description">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua...
+                </p>
+            </div>
+            <div class="social-icons">
+                <!-- Replace these with your own icons/links -->
+                <a href="#"><img src="linkedin-icon.png" alt="LinkedIn" /></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter" /></a>
+                <a href="#"><img src="dev-icon.png" alt="Dev" /></a>
+            </div>
         </div>
     </div>
 {% endblock %}
