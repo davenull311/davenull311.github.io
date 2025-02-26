@@ -75,6 +75,11 @@ footer {
     font-size: 0.9rem;
     line-height: 1.4;
   }
+
+  .contact-info img {
+    height: 1rem;
+    margin-right: 0.5rem;
+  }
   
   /* Right side: name, headline, description */
   .info-section {
