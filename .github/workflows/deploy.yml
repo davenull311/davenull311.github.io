@@ -32,16 +32,6 @@ jobs:
           python freeze.py 2>&1 | tee freeze_output.log
           cat freeze_output.log
 
-      - name: Rename files to include .html
-        run: |
-          cd build
-          for file in *; do
-            if [ -f "$file" ] && [ "$file" != "index.html" ] && [[ "$file" != *.html ]]; then
-              mv "$file" "$file.html"
-            fi
-          done
-          ls -la
-
       - name: List build directory contents
         run: |
           ls -la build/ || echo "Build directory not found"
