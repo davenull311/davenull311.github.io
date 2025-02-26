@@ -26,19 +26,29 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Freeze Flask app
+      - name: Debug directory structure
         run: |
           ls -la
+          ls -la app/ || echo "No app directory"
+          ls -la app/templates/ || echo "No templates directory"
+          ls -la app/static/ || echo "No static directory"
+
+      - name: Freeze Flask app
+        run: |
           python freeze.py 2>&1 | tee freeze_output.log
           cat freeze_output.log
 
-      - name: List build directory contents
+      - name: Debug build directory
         run: |
-          ls -la build/ || echo "Build directory not found"
-          ls -la build/static/ || echo "Static directory not found"
+          ls -la build/ || echo "No build directory"
+          find build -type f | sort
+
+      - name: Create .nojekyll file
+        run: touch build/.nojekyll
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build  # The folder to deploy
           branch: gh-pages  # The branch to deploy to
+          clean: true
