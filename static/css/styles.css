@@ -17,6 +17,10 @@ body {
     margin: 0 1rem;
 }
 
+.navbar a:hover {
+    text-size-adjust: 1.3rem;
+}
+
 .navbar a.active {
     color: #ffd700;
     font-weight: bold;
@@ -169,7 +173,7 @@ footer {
         height: 3rem;
     }
 
-    .social-icons img.hover {
+    .social-icons img:hover {
         height: 3.3rem;
     }
 
