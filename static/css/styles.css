@@ -55,6 +55,9 @@ footer {
     flex-direction: row;
     padding: 1rem;
     font-family: sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+
   }
   
   /* Left side: profile pic & contact info */
@@ -122,9 +125,25 @@ footer {
     text-align: center;
     font-size: 3rem;
     margin: 0 0 0.5rem;
-    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .first-name {
+    color: #D2D5D8;
   }
   
+  .last-name {
+    color: #575757;
+    text-decoration: bold;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem;
+    color: #575757;
+  }
+
   /* Description */
   .description {
     font-size: 1rem;
@@ -144,6 +163,10 @@ footer {
 
     .social-icons img {
         height: 3rem;
+    }
+
+    .social-icons img.hover {
+        height: 3.3rem;
     }
 
     .social-tile {
