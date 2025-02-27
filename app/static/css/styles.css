@@ -87,6 +87,7 @@ footer {
   
   /* Contact info below the profile pic */
   .contact-info {
+    border: dotted 1px #fd0404; /* DELETE AFTER STYLING */
     font-size: 1rem;
     line-height: 1.4;
     justify-content: center;
@@ -98,6 +99,7 @@ footer {
   }
 
   .contact-tile {
+    border: dotted 1px #fd0404; /* DELETE AFTER STYLING */
     display: flex;
     align-items: center;
     vertical-align: middle;
