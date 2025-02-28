@@ -43,6 +43,21 @@ jobs:
           ls -la build/ || echo "No build directory"
           find build -type f | sort
 
+      - name: Rename files to include .html
+        run: |
+          cd build
+          for file in *; do
+            if [ -f "$file" ] && [ "$file" != "index.html" ] && [[ "$file" != *.html ]]; then
+              mv "$file" "$file.html"
+            fi
+          done
+          ls -la
+  
+      - name: List build directory contents
+        run: |
+          ls -la build/ || echo "Build directory not found"
+          ls -la build/static/ || echo "Static directory not found"
+
       - name: Create .nojekyll file
         run: touch build/.nojekyll
 
