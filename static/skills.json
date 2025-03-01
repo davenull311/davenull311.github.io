@@ -1,0 +1,22 @@
+{
+  "skills": {
+    "Python": {
+      "proficiency": "Advanced",
+      "years": 5,
+      "description": "Backend dev, scripting, and data crunching.",
+      "projects": ["API Server", "Data Scraper"]
+    },
+    "JavaScript": {
+      "proficiency": "Intermediate",
+      "years": 3,
+      "description": "Frontend interactivity and DOM magic.",
+      "projects": ["Portfolio Terminal", "Game Widget"]
+    },
+    "Docker": {
+      "proficiency": "Beginner",
+      "years": 1,
+      "description": "Containerizing apps like a pro.",
+      "projects": ["Microservice Demo"]
+    }
+  }
+}

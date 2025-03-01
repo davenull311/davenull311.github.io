@@ -19,35 +19,25 @@
 
     <main>
         
-    <div class="content-container">
-        <h1>My Skills</h1>
-        <section class="skills-section">
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h2>Programming Languages</h2>
-                    <ul>
-                        <li>Python</li>
-                        <li>JavaScript</li>
-                        <li>[Add more]</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h2>Frameworks & Tools</h2>
-                    <ul>
-                        <li>Flask</li>
-                        <li>[Add more]</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h2>Other Skills</h2>
-                    <ul>
-                        <li>Git</li>
-                        <li>[Add more]</li>
-                    </ul>
-                </div>
+    <div class="terminal-container">
+        <div class="terminal">
+            <div class="terminal-header">> Dev Terminal v1.0</div>
+            <div class="terminal-output" id="output">
+                <p>> Welcome to my Skills Terminal!</p>
+                <p>> Try these commands:</p>
+                <p>> list skills  - Displays all my skills</p>
+                <p>> show projects --skill=Python  - Shows Python projects</p>
+                <p>> clear  - Clears the terminal</p>
+                <p>> help  - Lists all available commands</p>
+                <p>> Type a command below to explore!</p>
             </div>
-        </section>
+            <div class="terminal-input">
+                <span class="prompt">></span>
+                <input type="text" id="commandInput" autofocus placeholder="Type 'help' to start">
+            </div>
+        </div>
     </div>
+    <script src="static/js/terminal.js"></script>
 
     </main>
 

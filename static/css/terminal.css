@@ -1,0 +1,61 @@
+/* Scoped to .terminal and its children */
+.terminal {
+    width: 80%;
+    max-width: 800px;
+    height: 500px;
+    background: #111; /* Terminal’s background, overriding any global */
+    border: 2px solid #0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #0f0;
+    overflow: hidden;
+    font-family: 'Courier New', monospace; /* Moved from body */
+    color: #0f0; /* Moved from body */
+}
+
+/* Center the terminal without affecting global body */
+.terminal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures it takes full viewport height */
+    background: #000; /* Fallback background for the container */
+}
+
+/* Specific child elements */
+.terminal .terminal-header {
+    background: #333;
+    padding: 5px;
+    font-size: 14px;
+    border-bottom: 1px solid #0f0;
+}
+
+.terminal .terminal-output {
+    padding: 10px;
+    height: 80%;
+    overflow-y: auto;
+    font-size: 16px;
+}
+
+.terminal .terminal-input {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.terminal .prompt {
+    margin-right: 5px;
+}
+
+.terminal #commandInput {
+    background: none;
+    border: none;
+    color: #0f0;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    width: 100%;
+    outline: none;
+}
+
+.terminal #commandInput::placeholder {
+    color: #0a0;
+}
