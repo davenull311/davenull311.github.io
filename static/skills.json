@@ -3,20 +3,62 @@
     "Python": {
       "proficiency": "Advanced",
       "years": 5,
-      "description": "Backend dev, scripting, and data crunching.",
-      "projects": ["API Server", "Data Scraper"]
+      "description": "Backend development, data processing, and automation scripting.",
+      "projects": ["PPP Review Solution", "Data Pipeline Automation"]
     },
     "JavaScript": {
       "proficiency": "Intermediate",
       "years": 3,
-      "description": "Frontend interactivity and DOM magic.",
-      "projects": ["Portfolio Terminal", "Game Widget"]
+      "description": "Frontend development with React and Node.js for dynamic UIs.",
+      "projects": ["Client Dashboard", "Real-Time Data Widget"]
     },
     "Docker": {
-      "proficiency": "Beginner",
-      "years": 1,
-      "description": "Containerizing apps like a pro.",
-      "projects": ["Microservice Demo"]
+      "proficiency": "Advanced",
+      "years": 5,
+      "description": "Containerizing applications for consistent cloud deployment.",
+      "projects": ["PPP Review Microservices", "Azure Deployment Pipeline"]
+    },
+    "C#": {
+      "proficiency": "Advanced",
+      "years": 5,
+      "description": "Building robust .NET applications and APIs.",
+      "projects": ["Secure API Gateway", "Loan Analysis Tool"]
+    },
+    "Java": {
+      "proficiency": "Intermediate",
+      "years": 4,
+      "description": "Developing scalable backend systems.",
+      "projects": ["Compliance Engine", "Data Integration Module"]
+    },
+    "TSQL": {
+      "proficiency": "Advanced",
+      "years": 5,
+      "description": "Complex SQL queries and database optimization.",
+      "projects": ["Fraud Detection Queries", "BI Reporting System"]
+    },
+    "Azure": {
+      "proficiency": "Expert",
+      "years": 5,
+      "description": "Architecting cloud solutions with Databricks, Data Factory, and DevOps.",
+      "projects": ["PPP Review Solution", "Cloud Migration Framework"]
+    },
+    "AWS": {
+      "proficiency": "Intermediate",
+      "years": 3,
+      "description": "Deploying and managing cloud infrastructure.",
+      "projects": ["Backup Data Pipeline", "Cost Optimization Prototype"]
+    },
+    "REST APIs": {
+      "proficiency": "Advanced",
+      "years": 5,
+      "description": "Designing secure, load-balanced API endpoints.",
+      "projects": ["PPP Review API", "Federal Data Exchange"]
+    },
+    "Agile/Scrum": {
+      "proficiency": "Expert",
+      "years": 5,
+      "description": "Leading teams as a Certified Scrum Master and SAFe POPM.",
+      "projects": ["PPP Review Sprint Cycles", "Team Velocity Boost"]
     }
   }
 }
