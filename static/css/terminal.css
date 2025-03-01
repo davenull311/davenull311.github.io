@@ -1,27 +1,38 @@
-/* Scoped to .terminal and its children */
+/* Center the monitor wrapper on the screen */
+.monitor-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000; /* Optional: Black background for the page */
+}
+
+/* Style the monitor frame with the graphic */
+.monitor-frame {
+    position: relative;
+    width: 800px; /* Match the monitor image width */
+    height: 500px; /* Match the monitor image height */
+    background: url('/static/images/monitor.png') no-repeat center center; /* Path to your monitor PNG */
+    background-size: contain;
+}
+
+/* Style the terminal to fit inside the monitor screen */
 .terminal {
-    width: 80%;
-    max-width: 800px;
-    height: 500px;
-    background: #111; /* Terminal’s background, overriding any global */
+    position: absolute;
+    top: 10%; /* Adjust to fit inside the screen area of the monitor */
+    left: 10%;
+    width: 80%; /* Adjust to fit within the screen */
+    height: 80%; /* Adjust to fit within the screen */
+    background: #111; /* Terminal’s background */
     border: 2px solid #0f0;
     border-radius: 5px;
     box-shadow: 0 0 10px #0f0;
     overflow: hidden;
-    font-family: 'Courier New', monospace; /* Moved from body */
-    color: #0f0; /* Moved from body */
+    font-family: 'Courier New', monospace;
+    color: #0f0;
 }
 
-/* Center the terminal without affecting global body */
-.terminal-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Ensures it takes full viewport height */
-    background: #000; /* Fallback background for the container */
-}
-
-/* Specific child elements */
+/* Terminal header */
 .terminal .terminal-header {
     background: #333;
     padding: 5px;
@@ -29,6 +40,7 @@
     border-bottom: 1px solid #0f0;
 }
 
+/* Terminal output */
 .terminal .terminal-output {
     padding: 10px;
     height: 80%;
@@ -36,6 +48,7 @@
     font-size: 16px;
 }
 
+/* Terminal input */
 .terminal .terminal-input {
     padding: 10px;
     display: flex;
